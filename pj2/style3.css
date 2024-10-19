@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.contain {
+  width: 80%;
+  margin: auto;
+}
+.header .contain .nav-items .nav-options {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 110px;
+}
+.header .contain .wows {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  padding: 25px;
+}
+.launch .contain .noise,
+.leftside {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.launch .contain .noise .leftside .tree {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.launch .contain .noise .leftside .tree .love {
+  background-color: green;
+  border-radius: 99px;
+  padding: 10px;
+}
+.launch .contain .noise .leftside .tree .btn2 {
+  background-color: brown;
+  color: aquamarine;
+  padding: 18px;
+}
+.launch .contain .noise {
+  display: flex;
+  flex-direction: row;
+}
+.launch {
+  background-color: blue;
+}
+.header {
+  background-color: blue;
+  color: white;
+}
+.launch .contain .noise .leftside .don {
+  color: white;
+  font-weight: 200px;
+  font-size: 27px;
+}
+
+.launch .contain .noise .rightside {
+  gap: 25px;
+  padding-bottom: 75px;
+}
+.launch .contain .noise .leftside h1 {
+  color: white;
+  font-size: 40px;
+}
+.launch .contain .noise .leftside .tree {
+  color: white;
+  font-size: 22px;
+}
+@media screen and (max-width: 433px) {
+  .launch .contain .noise {
+    display: flex;
+    flex-direction: column;
+  }
+  .launch .contain .noise .rightside img {
+    width: 100%;
+    height: 270px;
+    padding: 10px;
+  }
+  .launch .contain .noise .leftside .tree {
+    display: flex;
+    flex-direction: column;
+  }
+  .launch .contain .noise .leftside .don {
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  .header .contain {
+    overflow: hidden;
+  }
+  .header .contain .wows img {
+    height: 60px;
+    width: 60px;
+  }
+}

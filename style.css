@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#blog {
+  background-color: white;
+}
+
+#why {
+  background-color: aquamarine;
+  font-size: 33.1px;
+}
+
+#why .whatever {
+  font-size: 25.4px;
+  background-color: brown;
+}
+
+#why #namethem {
+  font-size: 44.3;
+  background-color: blueviolet;
+}
+.Clue #impossible {
+  font-size: 15px;
+  background-color: blanchedalmond;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.Clue #possible {
+  font-size: 39px;
+  background-color: rgb(246, 127, 255);
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.Can #apple {
+  font-size: 22;
+  background-color: black;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.Can #Bun {
+  font-size: 16px;
+  background-color: aliceblue;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.guy {
+  border: 2px dashed;
+  border-radius: 6px;
+  border-bottom: 4px solid;
+  color: aquamarine;
+  padding-top: 15px;
+  padding-left: 16px;
+  margin-top: 5px;
+}
+.Clue {
+  padding: 15px;
+  border: 6px dashed blue;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.Can {
+  border: 8px solid green;
+  padding: 16px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.Ask {
+  padding: 8px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.Clue #tell {
+  margin-bottom: 15px;
+}
+.Can #tell {
+  margin-bottom: 15px;
+}
+.Ask #put {
+  text-align: center;
+}

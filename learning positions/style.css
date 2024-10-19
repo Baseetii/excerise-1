@@ -1,0 +1,307 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.contain {
+  width: 80%;
+  margin: auto;
+}
+
+.random {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: static;
+}
+.childss1 {
+  background-color: blue;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 80px;
+  /* left: 15px; */
+  right: 15px;
+}
+.childss2 {
+  background-color: green;
+  height: 20px;
+  width: 20px;
+}
+.childss3 {
+  background-color: yellow;
+  height: 20px;
+  width: 20px;
+}
+
+.choas {
+  background-color: aqua;
+  position: static;
+}
+.choas .ch-5 {
+  background-color: rgb(168, 42, 42);
+  right: 400px;
+  bottom: 50px;
+}
+.choas .ch-4 {
+  background-color: blue;
+  top: 100px;
+  left: 200px;
+}
+.choas .ch-6 {
+  background-color: green;
+  bottom: 80px;
+  left: 120px;
+}
+
+.choas2 {
+  background-color: blueviolet;
+  position: statics;
+}
+.choas2 .ch-7 {
+  bottom: 60px;
+}
+
+.choas2 .ch-8 {
+  bottom: 90px;
+  right: 90px;
+}
+
+.choas2 .ch-9 {
+  right: 300px;
+}
+
+.tick {
+  width: 500px;
+  height: 200vh;
+  background-color: brown;
+}
+/* 
+.tick .booml {
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+  right: 11px;
+  bottom: 10px;
+  position: fixed;
+}
+.tick .booml2 {
+  width: 70px;
+  height: 70px;
+  background-color: green;
+  position: sticky;
+  top: 10px;
+  left: 10px;
+}
+.tick .booml3 {
+  width: 70px;
+  height: 70px;
+  background-color: blueviolet;
+  left: 9px;
+  top: 15px;
+  position: absolute;
+}
+
+.whatever-pt2 {
+  height: 20px;
+  width: 20px;
+  background-color: orange;
+  align-items: center;
+  transition: width 3s, height 6s, transform 8s;
+  transition-timing-function: linear;
+  transition-delay: 5s;
+}
+.wt2 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.whatever-pt2:hover {
+  width: 50px;
+  height: 50px;
+  background-color: red; */
+/* transform: rotate(244deg);
+} */
+
+.images img:hover {
+  width: 190px;
+  height: 190px;
+}
+.images {
+  flex-direction: row;
+  display: flex;
+}
+
+.nobodys .contain h1 {
+  text-align: center;
+}
+
+.nobodys .contain .noice {
+  border-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin: 20px;
+  padding: 20px;
+}
+.nobodys {
+  margin: 20px;
+  padding: 20px;
+}
+.images img {
+  height: 100px;
+  width: 100px;
+  transition: width 5s, height 5s;
+}
+.whyss {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  align-items: center;
+  text-align: center;
+  transition: width 3s, height 6s, transform 8s;
+}
+.whyss:hover {
+  width: 70px;
+  height: 70px;
+  /* transform: rotate(20deg);
+  transform: scale(4, 5); */
+  /* transform: skew(30deg, 50deg); */
+  transform: translate();
+}
+body {
+  background-color: brown;
+}
+.media {
+  background-color: palegreen;
+  width: 120px;
+  height: 90px;
+}
+
+.b1 {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  align-items: center;
+  text-align: center;
+  transition: transform 3s;
+}
+.b1:hover {
+  width: 60px;
+  height: 60px;
+  transform: rotateX(95deg);
+}
+
+.b2 {
+  height: 20px;
+  width: 20px;
+  background-color: yellow;
+  align-items: center;
+  text-align: center;
+  transition: transform 3s;
+}
+.b2:hover {
+  width: 60px;
+  height: 60px;
+  transform: translate(80px, 190);
+}
+
+.b3 {
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  align-items: center;
+  text-align: center;
+  transition: transform 3s;
+}
+.b3:hover {
+  width: 60px;
+  height: 60px;
+  transform: scale(8, 9);
+}
+
+.b4 {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  align-items: center;
+  text-align: center;
+  transition: transform 3s;
+}
+.b4:hover {
+  width: 60px;
+  height: 60px;
+  transform: skew(30deg, 50deg);
+}
+
+.b5 {
+  height: 20px;
+  width: 20px;
+  background-color: brown;
+  align-items: center;
+  text-align: center;
+  transition: transform 3s;
+}
+.b5:hover {
+  width: 60px;
+  height: 60px;
+  transform: rotate(70deg);
+}
+
+.b6 {
+  height: 20px;
+  width: 20px;
+  background-color: purple;
+  align-items: center;
+  text-align: center;
+  transition: transform 3s;
+}
+.b6:hover {
+  width: 60px;
+  height: 60px;
+  transform: matrix(8, -0.88, 77, 9, 5, 28);
+}
+
+@media screen and (max-width: 1500px) {
+  body {
+    background-color: yellow;
+  }
+  .media {
+    background-color: purple;
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    background-color: pink;
+  }
+  .media {
+    background-color: aquamarine;
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: orange;
+  }
+  .media {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  body {
+    background-color: blue;
+  }
+  .media {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+  }
+}
